@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+
+  get 'pages/help'
+
   resources :posts
   resources :users
   root 'users#index'
